@@ -1,0 +1,27 @@
+﻿生成启动时间为 2018/1/3 23:24:05。
+     1>项目“E:\Calculator\Calculator\Calculator.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\we\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\Calculator.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         F:\we\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Calculator.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Calculator.cpp CalculatorDlg.cpp ExpressionHandler.cpp
+         Calculator.cpp
+         CalculatorDlg.cpp
+         ExpressionHandler.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\Calculator.res" Calculator.rc 
+       Link:
+         F:\we\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Calculator\Release\Calculator.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:F:\we\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"E:\Calculator\Release\Calculator.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Calculator\Release\Calculator.lib" /MACHINE:X86 /SAFESEH Release\Calculator.res
+         Release\Calculator.obj
+         Release\CalculatorDlg.obj
+         Release\ExpressionHandler.obj
+         Release\stdafx.obj
+         正在生成代码
+     1>e:\calculator\calculator\expressionhandler.cpp(87): warning C4715: “CExpressionHandler::GetPriority”: 不是所有的控件路径都返回值
+     1>e:\calculator\calculator\expressionhandler.cpp(115): warning C4715: “CExpressionHandler::Compute”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         Calculator.vcxproj -> E:\Calculator\Release\Calculator.exe
+     1>已完成生成项目“E:\Calculator\Calculator\Calculator.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.95
